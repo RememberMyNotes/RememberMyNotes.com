@@ -34,4 +34,10 @@ In short, if it's to do with "notes" and "remembering" them. Then RememberMyNote
 
 RememberMyNotes.com is something I'm creating to help solve my own personal problems, so am personally passionate about this. I hope, it helps to solve your problems too and helps you to remember your notes!
 
+You can follow me on twitter.com/RememberMyNotes for development updates. 
+
+Contact me on twitter.com/RememberMyNotes or reddit.com/u/RememberMyNotes
+
 Scott :)
+
+Last Updated: 3rd November 2020
