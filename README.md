@@ -1,5 +1,3 @@
-# RememberMyNotes.com
-
 Do you often write notes? Of course you do. If you're like me, you will use a mix of;
 
 - Pen and paper (notepad)
@@ -34,11 +32,11 @@ In short, if it's to do with "notes" and "remembering" them. Then RememberMyNote
 
 RememberMyNotes.com is something I'm creating to help solve my own personal problems, so am personally passionate about this. I hope, it helps to solve your problems too and helps you to remember your notes!
 
-You can follow me on https://twitter.com/RememberMyNotes for development updates. 
+You can follow me on [https://twitter.com/RememberMyNotes](https://twitter.com/RememberMyNotes) for development updates. 
 
-Contact me on https://twitter.com/RememberMyNotes or https://reddit.com/u/RememberMyNotes
+Contact me on [https://twitter.com/RememberMyNotes](https://twitter.com/RememberMyNotes) or [https://reddit.com/u/RememberMyNotes](https://reddit.com/u/RememberMyNotes)
 
-I also have https://github.com/RememberMyNotes although I don't quite no what I will be putting public here just yet - maybe some custom libraries created for use within RememberMyNotes? Open to suggestions...
+I also have [https://github.com/RememberMyNotes](https://github.com/RememberMyNotes) although I don't quite no what I will be putting public here just yet - maybe some custom libraries created for use within RememberMyNotes? Open to suggestions...
 
 Scott :)
 
