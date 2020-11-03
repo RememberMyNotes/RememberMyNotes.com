@@ -30,7 +30,7 @@ I'm intending to create innovative peer notes as well in both capture, organisat
 
 In short, if it's to do with "notes" and "remembering" them. Then RememberMyNotes.com will help facilitate it.
 
-RememberMyNotes.com is something I'm creating to help solve my own personal problems, so am personally passionate about this. I hope, it helps to solve your problems too and helps you to remember your notes!
+RememberMyNotes.com is something I'm creating to help solve my own personal frustrations with my own note taking abilities and lack of intuitive ways in remembering and managing them. As a result, I am personally very passionate about solving this to the best I can. I hope, that if you share such problems and frustrations that it helps you too!
 
 You can follow me on [https://twitter.com/RememberMyNotes](https://twitter.com/RememberMyNotes) for development updates. 
 
