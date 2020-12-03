@@ -42,4 +42,60 @@ I also have [https://github.com/RememberMyNotes](https://github.com/RememberMyNo
 
 Scott :)
 
-Last Updated: 3rd November 2020
+P.S. Some prototype TypeScript code below. Not been able to dedicate much time on this as a couple of other projects have taken priority during November. Mostly because they are much quicker to get up and running than this project. But will likely assign some dedicated time to complete the first release of this next year :)
+
+```
+import * as lodash from "lodash"
+
+interface iNoteBuilder {
+    build(total:number) : Note[];
+}
+
+abstract class NoteBuilder implements iNoteBuilder {
+    abstract build(total:number) : Note[];
+}
+
+class NoteBuilderCounter extends NoteBuilder {
+    build(total:number) : Note[] {
+        let notes:Note[] = [];
+        for (let i = 0; i < total; i++) {
+            notes.push(new Note(i.toString()));
+        }
+        return notes;
+    }
+}
+
+class Note {
+    public id:string;
+    constructor(id:string) {
+        this.id = id;
+    }
+}
+
+class Sessions {
+    build(notes:Note[], perSession: number): Note[][] {
+        // shuffle
+        return lodash.chunk(lodash.shuffle(notes), perSession);
+    }
+}
+
+class Revise {
+    private notes:Note[] = []
+    addNotes(notes:Note[]) : this {
+        this.notes = notes;
+        return this;
+    }
+}
+
+// Load notes to remember
+let notes = new NoteBuilderCounter().build(30);
+
+// Break notes up into random sessions
+let sessions = new Sessions().build(notes, 10);
+
+// Revise the first session
+let revise = new Revise().addNotes(sessions[0]);
+
+// Debug
+console.log(revise);
+```
